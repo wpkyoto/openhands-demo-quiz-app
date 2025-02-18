@@ -31,5 +31,3 @@ jobs:
       PAT_USERNAME: ${{ secrets.PAT_USERNAME }}
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
       LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-      LLM_RETRY_MIN_WAIT: ${{ secrets.LLM_RETRY_MIN_WAIT }}
-      LLM_RETRY_MAX_WAIT: ${{ secrets.LLM_RETRY_MAX_WAIT }}
